@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Preference</string>
+
+    <string name="underlined_text">
+        <u>underline</u>.
+    </string>
+
+</resources>
