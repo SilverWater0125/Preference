@@ -50,6 +50,18 @@
         app:layout_constraintStart_toStartOf="@+id/et_id"
         app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
+    <EditText
+        android:id="@+id/but5_bar"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#ABAAAA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -109,6 +121,18 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_login"
         app:srcCompat="@drawable/underline" />
 
+    <EditText
+        android:id="@+id/register_bar"
+        android:layout_width="70dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ABAAAA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/btn_register"
+        app:layout_constraintStart_toStartOf="@+id/btn_register"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
@@ -143,29 +167,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bottom" />
-
-    <EditText
-        android:id="@+id/but5_bar"
-        android:layout_width="104dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#ABAAAA"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
-
-    <EditText
-        android:id="@+id/register_bar"
-        android:layout_width="70dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#ABAAAA"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/btn_register"
-        app:layout_constraintStart_toStartOf="@+id/btn_register"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
